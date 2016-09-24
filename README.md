@@ -77,6 +77,7 @@ This dataset is public available for research. The details are described in [Cor
  + 1-11: Input variables (based on physicochemical tests)
  + 12: Output variable (based on sensory data):
  
+   
    1 - fixed acidity: most acids involved with wine or fixed or nonvolatile (do not evaporate readily)
 
    2 - volatile acidity: the amount of acetic acid in wine, which at too high of levels can lead to an unpleasant, vinegar taste
