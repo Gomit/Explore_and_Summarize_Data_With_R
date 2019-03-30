@@ -347,7 +347,7 @@ ggplot(data=wq, aes(x=quality)) +
     ylab("Number of Samples")
 ```
 
-![](WhiteWineQuality_files/figure-html/Histogram Quality Visualization-1.png)<!-- -->
+![](WhiteWineQuality_files/figure-html/Histogram_Quality_Visualization-1.png)<!-- -->
 
 Response:
 Much of this information can be seen using the 'summary' command. So if 6 is considered to be the average quality score in a 0 to 10 scale, then we can see in our plot that the majority of quality scores lie close to 6.
@@ -439,7 +439,7 @@ ggplot(data=wq, aes(x=quality.factor, y=alcohol)) +
     ylab("Alcohol")
 ```
 
-![](WhiteWineQuality_files/figure-html/Visualized boxplot-1.png)<!-- -->
+![](WhiteWineQuality_files/figure-html/Visualized_boxplot-1.png)<!-- -->
 
 ```r
 mean(wq$alcohol)
@@ -605,7 +605,7 @@ ggplot(data=wq, aes(x=quality.factor, y=chlorides)) +
     ylab("Chlorides")
 ```
 
-![](WhiteWineQuality_files/figure-html/Visualized boxplot: Chlorides-1.png)<!-- -->
+![](WhiteWineQuality_files/figure-html/Visualized_boxplot:_Chlorides-1.png)<!-- -->
 
 ### Additional visualization scatterplot with linear regression line
 
@@ -619,7 +619,7 @@ ggplot(data=wq, aes(x=as.numeric(quality), y=chlorides)) +
     ylab("Chlorides")
 ```
 
-![](WhiteWineQuality_files/figure-html/Visualization scatterplot: Chlorides-1.png)<!-- -->
+![](WhiteWineQuality_files/figure-html/Visualization_scatterplot:_Chlorides-1.png)<!-- -->
 
 Response:
 My conclusion is that adding chlorides affects the quality of wine negatively.
@@ -665,7 +665,7 @@ ggplot(data=wq, aes(x=quality.factor, y=volatile.acidity)) +
     ylab("Volatile Acidity")
 ```
 
-![](WhiteWineQuality_files/figure-html/Visualized boxplot: Volatile.acidity-1.png)<!-- -->
+![](WhiteWineQuality_files/figure-html/Visualized_boxplot:_Volatile.acidity-1.png)<!-- -->
 
 ### Additional visualization scatterplot with linear regression line
 
@@ -679,7 +679,7 @@ ggplot(data=wq, aes(x=as.numeric(quality), y=volatile.acidity)) +
     ylab("Volatile Acidity")
 ```
 
-![](WhiteWineQuality_files/figure-html/Visualization scatterplot: Volatile.acidity-1.png)<!-- -->
+![](WhiteWineQuality_files/figure-html/Visualization_scatterplot:_Volatile.acidity-1.png)<!-- -->
 
 Response:
 On each plot we can see the negative effects of volatile acidity on a white wine's quality score.
@@ -725,7 +725,7 @@ ggplot(data=wq, aes(x=quality.factor, y=total.sulfur.dioxide)) +
     ylab("Total Sulfur Dioxide")
 ```
 
-![](WhiteWineQuality_files/figure-html/Visualized boxplot: Total.sulfur.dioxide-1.png)<!-- -->
+![](WhiteWineQuality_files/figure-html/Visualized_boxplot:_Total.sulfur.dioxide-1.png)<!-- -->
 
 ### Additional visualization scatterplot with linear regression line
 
@@ -739,7 +739,7 @@ ggplot(data=wq, aes(x=as.numeric(quality), y=total.sulfur.dioxide)) +
     ylab("Total Sulfur Dioxide")
 ```
 
-![](WhiteWineQuality_files/figure-html/Visualization scatterplot: Total.sulfur.dioxide-1.png)<!-- -->
+![](WhiteWineQuality_files/figure-html/Visualization_scatterplot:_Total.sulfur.dioxide-1.png)<!-- -->
 
 Response:
 We can see that the variable total.sulfur.dioxide has a negative correlation to wine Quality.
