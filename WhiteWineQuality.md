@@ -468,7 +468,7 @@ ggplot(data=wq, aes(x=as.numeric(quality), y=alcohol)) +
     ylab("Alcohol")
 ```
 
-![](WhiteWineQuality_files/figure-html/Visualization scatterplot-1.png)<!-- -->
+![](WhiteWineQuality_files/figure-html/Visualization_scatterplot-1.png)<!-- -->
 
 Response:
 My conclusion is that alcohol affects the quality of wine positively.
@@ -519,7 +519,7 @@ ggplot(data=wq, aes(x=alcohol, y=density)) +
   ylab("Density")
 ```
 
-![](WhiteWineQuality_files/figure-html/Alcohol vs. Density-1.png)<!-- -->
+![](WhiteWineQuality_files/figure-html/Alcohol_vs._Density-1.png)<!-- -->
 
 Response:
 The plot above clearly shows that the density decreases when the amount of alcohol increases.
@@ -535,7 +535,7 @@ ggplot(data=wq, aes(x=as.numeric(residual.sugar), y=density)) +
     ylab("Density")
 ```
 
-![](WhiteWineQuality_files/figure-html/residual.sugar vs. Density-1.png)<!-- -->
+![](WhiteWineQuality_files/figure-html/residual.sugar_vs._Density-1.png)<!-- -->
 
 # Correlation between alcohol vs. density & residual-sugar vs. density
 
